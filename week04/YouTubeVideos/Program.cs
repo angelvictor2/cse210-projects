@@ -27,7 +27,7 @@ class Program
         video3.AddComment(new Comment("Hannah", "Very inspiring, thanks!"));
         video3.AddComment(new Comment("Ivan", "Make one about internships too!"));
         videos.Add(video3);
-        
+
         foreach (Video video in videos)
         {
             Console.WriteLine($"Title: {video._title}");
@@ -37,7 +37,7 @@ class Program
 
             Console.Write(video.GetComments());
 
-            Console.WriteLine(); // Blank line between videos
+            Console.WriteLine(); 
         }
     }
 }
