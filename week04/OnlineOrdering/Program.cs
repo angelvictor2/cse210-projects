@@ -21,7 +21,7 @@ class Program
 
         Order order2 = new Order(customer2);
         order2.AddProduct(new Product("Onion", "ON", 5.50, 4));
-        order2.AddProduct(new Product("Tomato", "TM", 5, 4));
+        order2.AddProduct(new Product("Tomato", "TM", 5, 3));
 
         Console.WriteLine(order2.GetShippingLabel());
         Console.WriteLine(order2.GetPackingLabel());
